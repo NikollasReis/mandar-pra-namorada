@@ -1,0 +1,59 @@
+body {
+    background-color: palevioletred;
+}
+
+.cabecalho {
+    justify-content: center;
+    display: flex;
+    color: white;
+
+}
+
+.botoes{
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    color: white;
+}
+/* Estilizando o botão */
+.botao{
+    background-color: white;/* Cor de fundo */
+    margin: 50px;
+    border: none;/* Remove a borda */
+    padding: 10px 30px;/* Espaçamento interno */
+    border-radius: 10px;/* Borda arredondada */
+    cursor: pointer; /* Transforma o cursor em mãozinha ao passar o mouse */
+    width: 150px;/* Largura do botão */
+    height: 40px;/* Altura do botão */
+    transition: background-color 0,3s ease;/* Efeitos de hover (ao passar o mouse) */
+}
+.botaonao, .botao{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;/* Cor de fundo */
+    margin: 50px;
+    border: none;/* Remove a borda */
+    padding: 10px 30px;/* Espaçamento interno */
+    border-radius: 10px;/* Borda arredondada */
+    cursor: pointer; /* Transforma o cursor em mãozinha ao passar o mouse */
+    width: 150px;/* Largura do botão */
+    height: 40px;/* Altura do botão */
+    transition: background-color 0,3s ease;/* Efeitos de hover (ao passar o mouse) */
+}
+.botaonao {
+    left: 70%;
+    top: 10%;
+}
+.botao {
+    left: 20%;
+    top: 10%;
+}
+
+.botao:hover {
+    background-color: rgb(212, 212, 212);/* Nova cor de fundo ao passar o mouse */
+}
+.botaonao:hover {
+    background-color: rgb(212, 212, 212);/* Nova cor de fundo ao passar o mouse */
+}
